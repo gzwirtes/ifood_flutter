@@ -39,7 +39,6 @@ class _THomeState extends State<THome> {
                 horizontal: 12,
               ),
               child: Column(
-                // mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Row(
