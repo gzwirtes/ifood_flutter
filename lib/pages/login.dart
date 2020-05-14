@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ifood_flutter/components/button.dart';
-import 'package:ifood_flutter/components/input.dart';
+// import 'package:ifood_flutter/components/button.dart';
+// import 'package:ifood_flutter/components/input.dart';
 
 class TLogin extends StatefulWidget {
   @override
