@@ -58,31 +58,6 @@ class _TPedidoState extends State<TPedido> with SingleTickerProviderStateMixin {
             TPedidoEmAndamento(),
           ],
         ),
-    );
-    // return DefaultTabController(
-    //   length: 2,
-    //   child: Scaffold(
-    //     appBar: AppBar(
-    //       backgroundColor: Colors.white,
-    //       title: Center(
-    //           child: Text(
-    //         'Pedidos',
-    //         style: TextStyle(
-    //           color: Colors.redAccent
-    //         ),
-    //       )),
-    //       bottom: TabBar(
-    //         labelColor: Colors.red,
-    //         tabs: <Widget>[
-    //         Tab(
-    //           text: 'ANTERIORES',
-    //         ),
-    //         Tab(
-    //           text: 'EM ANDAMENTO',
-    //         ),
-    //       ]),
-    //     ),
-    //   ),
-    // );
+    );    
   }
 }

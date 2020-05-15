@@ -316,55 +316,41 @@ class _TRestaurantesState extends State<TRestaurantes> {
                               fontWeight: FontWeight.w500,
                               color: Colors.black54),
                         ),
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            SizedBox(
-                              height: 20,
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                left: 12,
-                              ),
-                              child: Container(
-                                height: 200,
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(5),
-                                ),
-                                child: ListView(
-                                  padding: EdgeInsets.only(right: 12),
-                                  // scrollDirection: Axis.horizontal,
-                                  children: <Widget>[
-                                    GestureDetector(
-                                      onTap: () {
-                                        alertOK(context, 'Gourmet', 'Gourmet',
-                                            AlertType.info);
-                                      },
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: <Widget>[
-                                          ClipRRect(
-                                            borderRadius:
-                                                BorderRadius.circular(8),
-                                            child: Image.asset(
-                                              'assets/images/gourmet.png',
-                                              fit: BoxFit.fill,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ],
-                        )
                       ],
                     ),
                   ],
                 ),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Container(
+                height: 170,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5),
+                  // color: Colors.red,
+                ),
+                child: GestureDetector(
+                  onTap: () {
+                    alertOK(context, 'Gourmet', 'Gourmet', AlertType.info);
+                  },
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: Image.asset(
+                          'assets/images/gourmet.png',
+                          fit: BoxFit.fill,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                
               ),
             ),
           ],
