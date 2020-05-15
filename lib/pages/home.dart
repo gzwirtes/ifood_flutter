@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:ifood_flutter/components/alert.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:ifood_flutter/pages/pedido.dart';
 import 'package:ifood_flutter/pages/perfil.dart';
 import 'package:ifood_flutter/pages/restaurantes.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
+
+import 'busca.dart';
+import 'pedido.dart';
+import 'perfil.dart';
 
 class THome extends StatefulWidget {
   @override
@@ -15,9 +19,9 @@ class _THomeState extends State<THome> {
 
   final List<Widget> _lista = [
       TRestaurantes(),
-      Text('Busca'),
-      Text('Pedido'),
-      Text('Perfil'),
+      TBusca(),
+      TPedido(),
+      TPerfil(),
     ];
 
     void onItemTap(int index){
