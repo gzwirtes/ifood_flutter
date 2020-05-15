@@ -1,6 +1,6 @@
 # ifood_flutter
 
-A new Flutter project.
+Primeiro projeto em flutter, para ter um objetivo esotu desenvolvendo as telas do App Ifood conforme os conhecimentos adquiridos
 
 ## Getting Started
 
