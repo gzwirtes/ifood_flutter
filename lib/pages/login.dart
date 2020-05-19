@@ -23,7 +23,7 @@ class _TLoginState extends State<TLogin> {
                   ),
                 ),
                 onTap: () {
-                  Navigator.of(context).pushReplacementNamed('/home');
+                  // Navigator.of(context).pushReplacementNamed('/home');
                 },
               ),
               Padding(
@@ -108,6 +108,7 @@ class _TLoginState extends State<TLogin> {
                 ),
                 onPressed: () {
                   print('Continuar com o Google');
+                  Navigator.of(context).pushReplacementNamed('/home');
                 },
               ),
             ),
